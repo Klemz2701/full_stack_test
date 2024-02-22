@@ -6,7 +6,7 @@ Este projeto é uma plataforma de gerenciamento de filmes e usuários, permitind
 
 - Para começar a trabalhar com este projeto, siga estas etapas:
 
-- Clone o repositório: Clone o projeto para sua máquina local usando o comando git clone git@gitlab.com:Klemz2701/full-stack-test.git.
+- Clone o repositório: Clone o projeto para sua máquina local usando o comando `git clone git@gitlab.com:Klemz2701/full-stack-test.git`
 
 - Instale o Node.js: Certifique-se de ter o Node.js instalado em sua máquina. Se não, você pode baixá-lo e instalá-lo a partir do site [oficial do Node.js.](https://nodejs.org/)
 
