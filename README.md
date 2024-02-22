@@ -26,11 +26,13 @@ Este projeto é uma plataforma de gerenciamento de filmes e usuários, permitind
 - Sempre fazer o acesso utilizando o baseURL: http://localhost:3000
 
 **GET** -> baseURL/
+
 Apenas para testar se a conexão está funcionando
 
 _Usuários:_
 
 **POST** -> baseURL/user/register
+
 Usado para registrar um novo usuário, json:
 {
     "name" : "",
@@ -41,6 +43,7 @@ Usado para registrar um novo usuário, json:
 
 
 **POST** -> baseURL/user/login
+
 Usado para realizar a autenticação e receber o token, json:
 {
     "email": "",
@@ -51,25 +54,30 @@ _**A partir de agora, todas as requisições necessitarão do Token recebido ant
 
 
 **GET** -> baseURL/users
+
 Usado para retornar uma lista de todos os id, nome e email dos usuários cadastrados.
 
 
 **GET** -> baseURL/user/:id
+
 Usado para retornar informações sobre um id específico de um usuário, alterar o final da codigo para o id desejado
 Exemplo: baseURL/user/65d6b9c52ab9608c896de2ad
 
 
 **PUT** -> baseURL/user/:id
+
 Usado para atualizar informações sobre o usuário
 
 
 **DELETE** -> baseURL/user/:id
+
 Usado para deletar um usuário
 
 
 _Filmes:_
 
 **POST** -> baseURL/movie/register
+
 Usado para registrar um novo filme, json:
 {
     "title": "",
@@ -79,14 +87,17 @@ Usado para registrar um novo filme, json:
 
 
 **GET** -> baseURL/movie/list
+
 Usado para retornar a lista de filmes, com o id, título, duração e sinópse
 
 
 **PUT** -> baseURL/movie/:id
+
 Usado para atualizar informações do filme
 
 
 **DELETE** -> baseURL/movie/:id
+
 Usado para deletar um filme 
 
 
