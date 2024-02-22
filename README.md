@@ -131,11 +131,17 @@ Oferece uma API RESTful para o gerenciamento de usuários e filmes, protegendo r
 O frontend do projeto é construído com React, utilizando React Router para a navegação e Axios para a comunicação com a API do backend. Aqui estão alguns dos principais componentes e funcionalidades:
 
 **App.js:** O componente principal que define as rotas do aplicativo e a navegação.
+
 **Index.js:** Ponto de entrada do React que renderiza o componente App no DOM.
+
 **Api.js:** Define as funções de chamada da API para interagir com o backend.
+
 **Login.js:** Componente para a autenticação de usuários, utilizando tokens JWT.
+
 **MenuPage.js:** Página inicial que apresenta opções de navegação no aplicativo.
+
 **MoviesList.js e UsersList.js:** Componentes que listam filmes e usuários, respectivamente, consumindo dados do backend.
+
 **PrivateRoute.js:** Um componente de rota que requer autenticação, protegendo rotas específicas de usuários não autenticados.
 
 Oferece uma interface de usuário interativa, permitindo aos usuários gerenciar filmes e usuários com autenticação segura e navegação intuitiva.
