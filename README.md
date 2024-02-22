@@ -31,7 +31,7 @@ Apenas para testar se a conexão está funcionando
 _Usuários:_
 
 **POST** -> http://localhost:3000/user/register
-Usado para registrar um novo usuário, json abaixo:
+Usado para registrar um novo usuário, json:
 {
     "name" : "",
     "email" : "",
@@ -41,7 +41,7 @@ Usado para registrar um novo usuário, json abaixo:
 
 
 **POST** -> http://localhost:3000/user/login
-Usado para realizar a autenticação e receber o token, json abaixo:
+Usado para realizar a autenticação e receber o token, json:
 {
     "email": "",
     "password": ""
@@ -68,8 +68,9 @@ Usado para deletar um usuário
 
 
 _Filmes:_
+
 **POST** -> http://localhost:3000/movie/register
-Usado para registrar um novo filme, json abaixo:
+Usado para registrar um novo filme, json:
 {
     "title": "",
     "duration": "",
